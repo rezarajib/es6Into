@@ -52,18 +52,18 @@ document.getElementById('first-button-right').addEventListener('click',function(
 //     friendContainer.appendChild(friend);
 // })
 
-document.getElementById('add-friend').addEventListener('click',function(){
-    // console.log('added friend button clicked');
-    const friendContainer = document.getElementById('friends');
+// document.getElementById('add-friend').addEventListener('click',function(){
+//     // console.log('added friend button clicked');
+//     const friendContainer = document.getElementById('friends');
 
-    const friend = document.createElement('div');
-    friend.classList.add('friend');
+//     const friend = document.createElement('div');
+//     friend.classList.add('friend');
 
-    friend.innerHTML = `
-        <h3 class="friend-names"> added new friend button and click show up </h3>    
-        <p>  this is paragraph tag </p>
-    `
+//     friend.innerHTML = `
+//         <h3 class="friend-names"> added new friend button and click show up </h3>    
+//         <p>  this is paragraph tag </p>
+//     `
     
-    friendContainer.appendChild(friend);
-});
+//     friendContainer.appendChild(friend);
+// });
 
